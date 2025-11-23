@@ -1,6 +1,6 @@
+"use client"; // also must be a client component
 import React from "react";
 import ProjectCard from "../sub/ProjectCard";
-import Link from "next/link";
 
 const Projects = () => {
   return (
@@ -9,32 +9,24 @@ const Projects = () => {
         My Projects
       </h1>
       <div className="h-full w-full flex flex-col md:flex-row gap-10 px-10">
-        {/* Project 1: Mobile Chat Application */}
-        <Link href="#">
-          <ProjectCard
-            src="/app.png"
-            title="Mobile Chat Application"
-            description="This app is built with React Native. React Native is very powerful as it can build cross-platform applications."
-          />
-        </Link>
-
-        {/* Project 2: E-commerce Website */}
-        <Link href="#">
-          <ProjectCard
-            src="/products.png"
-            title="E-commerce Website"
-            description="This website is built with the MERN stack (MongoDB, Express, React, Node.js). It is a powerful stack for building web applications."
-          />
-        </Link>
-
-        {/* Project 3: Web Chat Application (External Link) */}
-        <Link href="#">
-          <ProjectCard
-            src="/text-airdrop.png"
-            title="Web Chat Application"
-            description="This web application is built with Next.js, MongoDB, Prisma, Express, and Node.js, making it a powerful set for building modern web apps."
-          />
-        </Link>
+        <ProjectCard
+          src="/app.png"
+          link="#"
+          title="Mobile Chat Application"
+          description="This app is built with React Native. React Native is very powerful as it can build cross-platform applications."
+        />
+        <ProjectCard
+          src="/Barvella products.png"
+          link="https://frontend-ecommerce-waax.onrender.com/"
+          title="E-commerce Website"
+          description="This website is built with the MERN stack (MongoDB, Express, React, Node.js). It is a powerful stack for building web applications."
+        />
+        <ProjectCard
+          src="/text-airdrop.png"
+          link="https://text-airdrop.onrender.com/"
+          title="Web Chat Application"
+          description="This web application is built with Next.js, MongoDB, Prisma, Express, and Node.js, making it a powerful set for building modern web apps."
+        />
       </div>
     </div>
   );

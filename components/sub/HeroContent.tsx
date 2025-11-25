@@ -39,7 +39,7 @@ const HeroContent = () => {
               className="cursor-pointer hover:animate-slowspin"
             />
             {/* Ensure the name is always visible */}
-            <span className="font-bold text-xl text-gray-300 mt-3">Reza Tahseen</span>
+            <span className="font-bold text-xl text-black lg:text-gray-300 mt-3">Reza Tahseen</span>
           </a>
         </motion.div>
 

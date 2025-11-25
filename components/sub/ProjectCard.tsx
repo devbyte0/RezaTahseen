@@ -1,4 +1,4 @@
-"use client"; // must be a client component
+"use client";
 import Image from "next/image";
 import React from "react";
 
@@ -15,7 +15,8 @@ const ProjectCard = ({ src, title, description, link }: Props) => {
       href={link}
       target="_blank"
       rel="noopener noreferrer"
-      className="block relative overflow-hidden rounded-lg shadow-lg border border-[#2A0E61] hover:scale-105 transition-transform duration-300 cursor-pointer"
+      className="relative z-30 block overflow-hidden rounded-lg shadow-lg border border-[#2A0E61] 
+             hover:scale-105 transition-transform duration-300 cursor-pointer"
     >
       <Image
         src={src}
@@ -24,6 +25,7 @@ const ProjectCard = ({ src, title, description, link }: Props) => {
         height={1000}
         className="w-full object-contain"
       />
+
       <div className="relative p-4">
         <h1 className="text-2xl font-semibold text-white">{title}</h1>
         <p className="mt-2 text-gray-300">{description}</p>

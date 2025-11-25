@@ -11,7 +11,7 @@ const Projects = () => {
       <div className="h-full w-full flex flex-col md:flex-row gap-10 px-10">
         <ProjectCard
           src="/app.png"
-          link="#"
+          link="https://drive.google.com/file/d/1tkvE9yV7GRBevaGm0nw1dTsQonHd7t30/view?usp=sharing"
           title="Mobile Chat Application"
           description="This app is built with React Native. React Native is very powerful as it can build cross-platform applications."
         />
@@ -19,13 +19,25 @@ const Projects = () => {
           src="/Barvella products.png"
           link="https://frontend-ecommerce-waax.onrender.com/"
           title="E-commerce Website"
-          description="This website is built with the MERN stack (MongoDB, Express, React, Node.js). It is a powerful stack for building web applications."
+          description="This website is built with the MERN stack (MongoDB, Express, React, Node.js) and socket.io. It is a powerful stack for building eCommerce applications."
         />
         <ProjectCard
           src="/text-airdrop.png"
           link="https://text-airdrop.onrender.com/"
           title="Web Chat Application"
-          description="This web application is built with Next.js, MongoDB, Prisma, Express, and Node.js, making it a powerful set for building modern web apps."
+          description="This web application is built with Next.js, MongoDB, Prisma, Express, and Node.js and socket.io, making it a powerful set for building modern Web Chat apps."
+        />
+        <ProjectCard
+          src="/Income-Expense.png"
+          link="https://incomeandexpense.vercel.app/"
+          title="Income & Expense Tracker"
+          description="This web application is built with Next.js, MongoDB, Express, and Node.js, making it a powerful set for building modern web apps."
+        />
+        <ProjectCard
+          src="/smahsbd.png"
+          link="https://smahsbd.com/"
+          title="School Website"
+          description="This web application is built with Wordpress and School Management System."
         />
       </div>
     </div>

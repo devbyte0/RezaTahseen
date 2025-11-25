@@ -11,14 +11,15 @@ import { FaYoutube } from "react-icons/fa";
 
 const Footer = () => {
   return (
-    <div className="w-full h-full bg-transparent text-gray-200 shadow-lg p-[15px]">
+    <div className="w-full h-full bg-transparent text-gray-200 shadow-lg p-[15px] relative z-20">
       <div className="w-full flex flex-col items-center justify-center m-auto">
         <div className="w-full h-full flex flex-row items-center justify-around flex-wrap">
+
           {/* Community Section */}
           <div className="min-w-[200px] h-auto flex flex-col items-center justify-start">
             <div className="font-bold text-[16px]">Community</div>
             <a
-              href="https://youtube.com"
+              href="https://www.youtube.com/@devbyte0"
               target="_blank"
               rel="noopener noreferrer"
               className="flex flex-row items-center my-[15px] cursor-pointer"
@@ -27,7 +28,7 @@ const Footer = () => {
               <span className="text-[15px] ml-[6px]">YouTube</span>
             </a>
             <a
-              href="https://github.com"
+              href="https://github.com/devbyte0"
               target="_blank"
               rel="noopener noreferrer"
               className="flex flex-row items-center my-[15px] cursor-pointer"
@@ -50,7 +51,7 @@ const Footer = () => {
           <div className="min-w-[200px] h-auto flex flex-col items-center justify-start">
             <div className="font-bold text-[16px]">Social Media</div>
             <a
-              href="https://instagram.com"
+              href="https://www.instagram.com/reza.tahseen__/"
               target="_blank"
               rel="noopener noreferrer"
               className="flex flex-row items-center my-[15px] cursor-pointer"
@@ -68,7 +69,7 @@ const Footer = () => {
               <span className="text-[15px] ml-[6px]">Twitter</span>
             </a>
             <a
-              href="https://linkedin.com"
+              href="https://www.linkedin.com/in/reza-tahseen-765160299/"
               target="_blank"
               rel="noopener noreferrer"
               className="flex flex-row items-center my-[15px] cursor-pointer"
@@ -98,7 +99,7 @@ const Footer = () => {
 
         {/* Footer Text */}
         <div className="mb-[20px] text-[15px] text-center">
-          &copy; Reza Tahseen 2024 Inc. All rights reserved
+          &copy; Reza Tahseen 2025 Inc. All rights reserved
         </div>
       </div>
     </div>
